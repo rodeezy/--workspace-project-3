@@ -8,7 +8,7 @@ public class InputSource {
 	private BufferedReader in;
 	private int myLineNumber = 0;
 
-	public InputSource ( ) {
+	public InputSource (  ) {
 		try {
 			in = new BufferedReader (new InputStreamReader (System.in));
 			myLineNumber = 0;
